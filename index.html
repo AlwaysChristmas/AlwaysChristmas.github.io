@@ -5,7 +5,7 @@
     <script src="https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js"></script>
   </head>
   <body>
-    <a-scene vr-mode-ui="enabled: true">
+    <a-scene webxr="requiredFeatures: local-floor" vr-mode-ui="enabled: true">
       
       <!-- Jugador con movimiento en VR -->
       <a-entity id="player" position="0 1.6 0" movement-controls>
